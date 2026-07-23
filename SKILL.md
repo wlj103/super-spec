@@ -1,6 +1,6 @@
 ---
 name: super-spec
-description: AI工程纪律工具：七道闸门防AI偷懒/跳步/谎称完成。规范驱动开发(Spec-Driven Development)，反偷工减料，证据验证，五文档互锁。适用Claude Code/Cursor/Coze等AI编程Agent。触发词：spec、production-grade、不要偷懒、防AI跳步。Seven-Gate engineering discipline for AI agents: anti-corner-cutting, evidence-based verification, spec-first, five-document interlocking. For Claude Code, Cursor, Codex, and all AI coding agents.
+description: Seven-Gate engineering discipline for AI agents: anti-corner-cutting, evidence-based verification, spec-first, five-document interlocking. For Claude Code, Cursor, Codex, and all AI coding agents. Trigger: "spec", "production-grade", "don't cut corners", "anti-corner-cutting".
 license: MIT
 ---
 
@@ -449,7 +449,7 @@ Must actually read output files (grep, line count, content inspection). Filling 
 | 7 | Each P0 risk Task has fallback protection sub-task | — | Yes/No |
 | 8 | Cutover phase has rollback drill sub-task | — | Yes/No |
 | 9 | Bidirectional links complete + Scenario IDs consistent (spec R1 has 5 → checklist has 5) | Cross-Document + Scenario | Yes/No |
-| 10 | No "No Placeholders" violations (no TBD/TODO/待定/appropriate) | — | Yes/No |
+| 10 | No "No Placeholders" violations (no TBD/TODO/PENDING) | — | Yes/No |
 | 11 | Progressive rule meets or exceeds source requirement ("at least 5" not shrunk to 3) | At Least N | Yes/No |
 | 12 | Constitution red lines per file; each term has definition + mapping; spec Why baseline has specific values | Red Lines / Terms / Baseline | Yes/No |
 | 13 | Each ADDED Requirement: interface/config/error codes fully written if they exist | Interface/Config | Yes/No |

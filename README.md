@@ -10,8 +10,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/wlj103/super-spec?style=social)](https://github.com/wlj103/super-spec)
 
 
-> 🛡️ **先写规范，再写代码。AI 也不例外。** — 防AI偷懒、防AI作弊、防AI跳步。每一步都锁死，缺证据就重来。个人开发者也能拥有团队级质量。
-**Stop vibe coding. Start spec driving.** Super-Spec is the engineering discipline layer for AI coding agents — specification-first, verification-always. Anti-corner-cutting, evidence-based verification, structural locks. Production-grade quality gates for AI-generated code. Built for solo developers.
+> 🛡️ **Stop vibe coding. Start spec driving.** Super-Spec is the engineering discipline layer for AI coding agents — specification-first, verification-always. Anti-corner-cutting, evidence-based verification, structural locks. Production-grade quality gates for AI-generated code. Built for solo developers.
 
 ```
   REQUIREMENTS → G0:ANCHOR → G1:DECIDE → G2:CONSTITUTION → G3:5-DOCS → G4:EXECUTE → G5:VERIFY → G6:WRAP → DELIVERY
@@ -40,7 +39,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-- [Key Features — What Makes This Unique](#key-features--what-makes-this-unique--核心功能--别人没有的)
+- [Key Features — What Makes This Unique](#key-features--what-makes-this-unique)
 ## The Problem: AI Keeps Skipping Steps
 
 AI coding agents are technically brilliant but behaviorally undisciplined. They **skip requirements**, **fill in defaults without asking**, **claim "tests passed" with zero evidence**, and deliver results that "look fine" but break in production.
@@ -49,26 +48,23 @@ This is the **70% Problem** — AI gets you 70% there fast, but the last 30% is 
 
 **Super-Spec is not a prompt. It's a structural enforcement system.** It's the engineering discipline that AI agents are missing — specification-first, verification-always, evidence-based.
 
-## Key Features — What Makes This Unique / 核心功能 — 别人没有的
+## Key Features — What Makes This Unique
 
 Super-Spec is the only agent skill that **systematically catalogs how AI models cut corners** and creates **operational definitions** to prevent each tactic.
 
-Super-Spec 是唯一一个系统性地**分类模型如何偷懒**、并为每种偷懒手段创建**操作定义**来阻止的 Agent Skill。
-
-| Feature 功能 | The Problem It Solves 解决什么问题 | What People Actually Search 用户会搜什么 |
+| Feature | The Problem It Solves | What People Actually Search |
 |---------|---------------|------------------------|
-| **Anti-Corner-Cutting 反偷懒条款** | AI keeps skipping steps, fills in defaults, claims done without evidence | "AI keeps skipping steps" / "AI总跳步骤怎么办" / "AI偷懒不按流程" / "stop AI cutting corners" |
-| **Cross-Document Validation 文档交叉验证** | AI code drifts from requirements; spec says one thing, code does another | "AI code doesn't match requirements" / "AI代码和需求不一致" / "AI不按需求开发" / "AI ignores spec" |
-| **Constitution-Driven 规则驱动** | AI forgets context between rounds; each session starts from scratch | "AI forgets context" / "AI忘记上下文" / "AI不记得之前的约定" / "make AI follow rules consistently" |
-| **Evidence-Based Verification 证据验证** | AI says "tests passed" but never actually ran them; zero proof of work | "AI says tests passed but didn't" / "AI谎称测试通过" / "AI测试没跑就说通过" / "verify AI actually ran tests" |
-| **Solo Developer Workflow 单人团队级质量** | No reviewer, no QA, no PM — just you and AI. How to get production-grade quality alone? | "solo developer AI coding" / "个人开发者用AI写代码" / "没有代码审查的AI开发" / "一个人用AI做项目" |
-| **Structural Locks 结构锁** | AI bypasses prompts; writes "enforcement applied" but skips the actual work | "AI bypasses prompts" / "AI绕过提示词" / "提示词管不住AI" / "AI ignores instructions" |
-| **Spot-Check Re-Verification 抽查复验** | AI output looks fine but breaks in production; surface-level validation misses real bugs | "AI looks fine but breaks" / "AI表面没问题实际有bug" / "AI自欺欺人" / "verify AI output is real" |
-| **Pre-Flight + Rollback 预检+回滚** | AI deployment broke everything, no way to recover; destructive operations with no safety net | "AI deployment broke everything" / "AI部署搞崩了" / "AI操作失误无法恢复" / "safe AI deployment rollback" |
-| **Progressive ≥3 Rounds 渐进式迭代** | AI stops after first attempt, declares "done" when quality is still poor | "AI stops after first attempt" / "AI只做一轮就说完成" / "AI不迭代优化" / "AI doesn't iterate" |
-| **Seven-Gate Pipeline 七步质量流水线** | No structured workflow for AI coding; ad-hoc prompts lead to ad-hoc quality | "production-grade AI code" / "AI代码如何达到生产级" / "AI工程化开发流程" / "AI coding workflow quality" |
+| **Anti-Corner-Cutting** | AI keeps skipping steps, fills in defaults, claims done without evidence | "AI keeps skipping steps" / "stop AI cutting corners" / "AI ignores instructions" |
+| **Cross-Document Validation** | AI code drifts from requirements; spec says one thing, code does another | "AI code doesn't match requirements" / "AI ignores spec" / "AI doesn't follow requirements" |
+| **Constitution-Driven** | AI forgets context between rounds; each session starts from scratch | "AI forgets context" / "make AI follow rules consistently" / "AI doesn't remember rules" |
+| **Evidence-Based Verification** | AI says "tests passed" but never actually ran them; zero proof of work | "AI says tests passed but didn't" / "verify AI actually ran tests" / "AI lied about tests" |
+| **Solo Developer Workflow** | No reviewer, no QA, no PM — just you and AI. How to get production-grade quality alone? | "solo developer AI coding" / "one person AI project" / "no code review AI development" |
+| **Structural Locks** | AI bypasses prompts; writes "enforcement applied" but skips the actual work | "AI bypasses prompts" / "AI ignores instructions" / "prompt enforcement doesn't work" |
+| **Spot-Check Re-Verification** | AI output looks fine but breaks in production; surface-level validation misses real bugs | "AI looks fine but breaks" / "verify AI output is real" / "AI self-deception" |
+| **Pre-Flight + Rollback** | AI deployment broke everything, no way to recover; destructive operations with no safety net | "AI deployment broke everything" / "safe AI deployment rollback" / "undo AI changes" |
+| **Progressive ≥3 Rounds** | AI stops after first attempt, declares "done" when quality is still poor | "AI stops after first attempt" / "AI doesn't iterate" / "AI declares done too early" |
+| **Seven-Gate Pipeline** | No structured workflow for AI coding; ad-hoc prompts lead to ad-hoc quality | "production-grade AI code" / "AI coding workflow quality" / "structured AI development" |
 
-## What Makes This Different
 ## What Makes This Different
 
 | Other Spec Tools | Super-Spec |
@@ -206,7 +202,7 @@ super-spec/
 | **Philosophy** | "Just describe it, AI figures it out" | "Spec first, verify always, evidence required" |
 | **Speed (first hour)** | 🚀 Fast | 🐢 Slower start |
 | **Speed (day 3+)** | 🐌 Slows down (refactoring, bug fixing) | 🚀 Steady, predictable |
-| **Risk of production incidents** | High (15-20%事故率) | Low (evidence-anchored) |
+| **Risk of production incidents** | High (15-20% incident rate) | Low (evidence-anchored) |
 | **Understanding debt** | Accumulates silently | Zero — Constitution anchors every round |
 | **Best for** | Prototypes, MVPs, exploration | Production, complex systems, long-term maintenance |
 

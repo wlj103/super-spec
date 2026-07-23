@@ -1,6 +1,6 @@
 ---
 name: super-spec
-description: AI工程纪律工具：七道闸门防AI偷懒/跳步/谎称完成。规范驱动开发(Spec-Driven Development)，反偷工减料，证据验证，五文档互锁。适用Claude Code/Cursor/Coze等AI编程Agent。触发词：spec、production-grade、不要偷懒、防AI跳步。Seven-Gate engineering discipline for AI agents: anti-corner-cutting, evidence-based verification, spec-first, five-document interlocking. For Claude Code, Cursor, Codex, and all AI coding agents.
+description: AI工程纪律工具：七道闸门防AI偷懒/跳步/谎称完成。规范驱动开发(Spec-Driven Development)，反偷工减料，证据验证，五文档互锁。适用Claude Code/Cursor/Coze等AI编程Agent。触发词：spec、production-grade、不要偷懒、防AI跳步。
 license: MIT
 ---
 

@@ -21,7 +21,7 @@ Authority chain: Constitution > spec > tasks > checklist; decisions is the knowl
 - Executing without reading Constitution → re-run. The first 3 sections of Constitution (core architecture principles + confirmed decisions + red lines) must be re-read at the start of every round to prevent drift.
 - All 5 documents must be read in full. Reading only tasks and starting work is prohibited.
 - Every section in every document must be covered; execution discipline rules must be followed.
-- If any document contains "TBD" / "TODO" / "待定" / "后续补充" → document is not ready, stop execution, report to user for completion.
+- If any document contains "TBD" / "TODO" / "PENDING" / "TO BE COMPLETED" → document is not ready, stop execution, report to user for completion.
 
 ## III. Execution Iron Rules
 
