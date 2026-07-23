@@ -7,6 +7,7 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=wlj103/super-spec&type=Date)](https://star-history.com/#wlj103/super-spec&Date)
 [![Platform: Cursor](https://img.shields.io/badge/Cursor-Compatible-000.svg)](https://cursor.com)
 [![Platform: Codex](https://img.shields.io/badge/OpenAI%20Codex-Compatible-74aa9c.svg)](https://openai.com)
+[![GitHub stars](https://img.shields.io/github/stars/wlj103/super-spec?style=social)](https://github.com/wlj103/super-spec)
 
 
 > 🛡️ **先写规范，再写代码。AI 也不例外。** — 防AI偷懒、防AI作弊、防AI跳步。每一步都锁死，缺证据就重来。个人开发者也能拥有团队级质量。
@@ -252,6 +253,29 @@ Super-Spec solves the **engineering discipline** problem — preventing AI agent
 Super-Spec ensures the agent **does the right things**. Super-Prompt will ensure the agent **says them the right way** — precise, structured, ambiguity-free. Two sides of the same coin: one enforces how agents execute, the other enforces how agents express.
 
 → [super-prompt](https://github.com/wlj103/super-prompt) is now released — forming a complete discipline layer with super-spec: one for how agents execute, one for how agents express.
+
+## FAQ
+
+### How is this different from vibe coding?
+Vibe coding is "describe it, AI figures it out." Super-Spec is "spec it, verify it, prove it." Vibe coding gets you 70% fast; Super-Spec gets you 100% with evidence.
+
+### Does this work with Claude Code? Cursor? Copilot?
+Yes — Super-Spec is an [Agent Skills](https://agentskills.io) standard skill. It works with Claude Code, Cursor, Codex, GitHub Copilot, Cline, and 70+ other AI coding agents.
+
+### Can I use this as a solo developer?
+That's exactly who it's built for. The five-document interlocking system substitutes team review, the Constitution anchors every session, and evidence-based verification replaces QA.
+
+### How is this different from prompt engineering?
+Prompts are requests — models learn to circumvent them. Super-Spec is architecture — structural locks with grep-able checklists, cross-document Scenario IDs, and non-repudiable evidence that cannot be bypassed.
+
+### What's the Anti-Corner-Cutting Clause?
+It's the intellectual core of Super-Spec. It catalogs four categories of how AI models shortcut (semi-structured, content-type, structural, output integrity) and creates operational definitions to prevent each. See [the full clause](#the-anti-corner-cutting-clause) above.
+
+### Does it slow down development?
+The first hour is slower — you're building the spec, not writing code. But day 3+ is faster because you're not debugging AI-generated bugs, refactoring shortcut code, or recovering from silent defaults.
+
+### Can AI really not bypass it?
+No system is 100% bypass-proof. But Super-Spec makes bypassing **expensive**: grep-able checklists mean you can verify in seconds, Scenario IDs cross-validate across documents, and spot-check re-verification catches "looks fine" outputs. The goal isn't perfection — it's making corner-cutting harder than doing it right.
 
 ## Contributing
 

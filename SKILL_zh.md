@@ -1,6 +1,6 @@
 ---
 name: super-spec
-description: Seven-Gate engineering discipline pipeline that prevents AI agents from cutting corners, skipping steps, or claiming success without evidence. Use when starting a new project, building a core module, executing a major version upgrade, or whenever the user says "spec", "disciplined execution", "don't let the AI cut corners", or "production-grade delivery". Also use when the user wants to convert an existing design document, requirements document, technical proposal, architecture decision, or prompt document into a structured, verifiable, interlocking five-document system (Constitution + spec + tasks + checklist + decisions) that the agent must follow gate by gate.
+description: AI工程纪律工具：七道闸门防AI偷懒/跳步/谎称完成。规范驱动开发(Spec-Driven Development)，反偷工减料，证据验证，五文档互锁。适用Claude Code/Cursor/Coze等AI编程Agent。触发词：spec、production-grade、不要偷懒、防AI跳步。Seven-Gate engineering discipline for AI agents: anti-corner-cutting, evidence-based verification, spec-first, five-document interlocking. For Claude Code, Cursor, Codex, and all AI coding agents.
 license: MIT
 ---
 
