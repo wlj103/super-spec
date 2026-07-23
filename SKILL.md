@@ -1,6 +1,6 @@
 ---
 name: "super-spec"
-description: "Seven Gates from requirement lock to delivery—anti-laziness interception × five-document cross-validation × probe-driven, ensuring AI can't skip steps or pass empty"
+description: "Spec-driven engineering discipline for AI coding agents—seven-gate pipeline with anti-laziness interception, five-document cross-validation, and evidence-based verification. For new projects, core modules, and major version upgrades. Ensures AI can't skip steps, pass empty, or deliver untested code."
 license: MIT
 ---
 
