@@ -247,11 +247,11 @@ Super-Spec solves the **engineering discipline** problem — preventing AI agent
 | Problem | Skill | Status |
 |---------|-------|--------|
 | AI skips steps, claims success without evidence | **super-spec** — Engineering discipline | ✅ Released |
-| AI expresses vaguely, lacks structure, leaves ambiguity | **super-prompt** — Prompt discipline | 🔜 Planned |
+| AI expresses vaguely, lacks structure, leaves ambiguity | [**super-prompt**](https://github.com/wlj103/super-prompt) — Prompt discipline | ✅ Released |
 
 Super-Spec ensures the agent **does the right things**. Super-Prompt will ensure the agent **says them the right way** — precise, structured, ambiguity-free. Two sides of the same coin: one enforces how agents execute, the other enforces how agents express.
 
-*Interested in super-prompt? Star this repo and watch for updates.*
+→ [super-prompt](https://github.com/wlj103/super-prompt) is now released — forming a complete discipline layer with super-spec: one for how agents execute, one for how agents express.
 
 ## Contributing
 
