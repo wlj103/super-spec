@@ -37,6 +37,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+- [Key Features — What Makes This Unique](#key-features--what-makes-this-unique--核心功能--别人没有的)
 ## The Problem
 
 AI coding agents are technically brilliant but behaviorally undisciplined. They **skip steps**, **fill in defaults without asking**, **claim "tests passed" with zero evidence**, and deliver results that "look fine" but break in production.
@@ -45,6 +46,26 @@ Prompt engineering doesn't fix this. Models learn to circumvent prompts — "enf
 
 **Super-Spec is not a prompt. It's a structural enforcement system.**
 
+## Key Features — What Makes This Unique / 核心功能 — 别人没有的
+
+Super-Spec is the only agent skill that **systematically catalogs how AI models cut corners** and creates **operational definitions** to prevent each tactic.
+
+Super-Spec 是唯一一个系统性地**分类模型如何偷懒**、并为每种偷懒手段创建**操作定义**来阻止的 Agent Skill。
+
+| Feature 功能 | Why It Matters 为什么重要 | High-Search Keywords 高频搜索词 |
+|---------|---------------|------------------------|
+| **Anti-Corner-Cutting Clause 反偷懒条款** | 4 categories of model shortcutting, each with operational definitions | stop AI skipping steps, prevent AI cutting corners, 防AI偷懒, 防AI作弊 |
+| **Five-Document Interlocking 五文档互锁** | Constitution + spec + tasks + checklist + decisions cross-validate; spec says A, tasks cannot say B | cross-document verification, interlocking specs, 文档互锁, 规格验证 |
+| **Constitution-Driven 宪法驱动** | Re-read Constitution every round; zero reliance on "the model remembers" | AI agent constitution, process discipline, AI流程纪律 |
+| **Evidence-Based Verification 证据验证** | Script name + pass count + live e2e results required. "Tests passed" is not evidence | evidence-based AI, non-repudiable proof, AI验证证据 |
+| **Solo Dev Optimized 个人开发者神器** | Five-document interlocking substitutes team review; no reviewer, QA, or PM needed | solo developer AI tools, 个人开发者神器, 单人团队级质量 |
+| **Structural Locks 结构锁** | Grep-able checklists, Scenario IDs, 18-item checklist — prompts can be bypassed, structure cannot | structural verification, grep-able gates, 结构锁, 防绕过 |
+| **Spot-Check Re-Verification 抽查复验** | Final round: pick 3 ✅ items, verify via different method. Prevents self-deception | AI self-verification, spot-check, 防AI自欺, 抽查验证 |
+| **Pre-Flight + Rollback 预检+回滚** | Destructive operations get pre-flight check + rollback drill before execution | safe AI deployment, rollback drill, 安全部署, 回滚演练 |
+| **Progressive ≥3 Rounds 渐进式≥3轮** | Gate Four enforces minimum 3 rounds; all P0 green before proceeding | progressive iteration, multi-round verification, 渐进式执行, 多轮验证 |
+| **Seven-Gate Pipeline 七道闸门** | G0:Anchor → G1:Decide → G2:Constitution → G3:5-Docs → G4:Execute → G5:Verify → G6:Wrap | verification gates, AI engineering discipline, 七道闸门, 工程纪律 |
+
+## What Makes This Different
 ## What Makes This Different
 
 | Other Spec Tools | Super-Spec |
