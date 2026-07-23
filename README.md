@@ -6,7 +6,7 @@
 [![Platform: Cursor](https://img.shields.io/badge/Cursor-Compatible-000.svg)](https://cursor.com)
 [![Platform: Codex](https://img.shields.io/badge/OpenAI%20Codex-Compatible-74aa9c.svg)](https://openai.com)
 
-**A discipline enforcement system that prevents AI coding agents from cutting corners, skipping steps, or claiming success without evidence.**
+**A spec-driven development discipline for AI coding agents. Seven verification gates + five-document interlocking system prevent corner-cutting. Production-grade quality gates for Claude Code, Cursor, Codex, Copilot, Windsurf. Built for solo developers who need team-level engineering rigor.**
 
 ```
   REQUIREMENTS → G0:ANCHOR → G1:DECIDE → G2:CONSTITUTION → G3:5-DOCS → G4:EXECUTE → G5:VERIFY → G6:WRAP → DELIVERY
