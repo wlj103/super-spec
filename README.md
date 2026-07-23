@@ -1,4 +1,4 @@
-# Super-Spec: Seven-Gate Engineering Discipline for AI Agents
+# Super-Spec: Spec-Driven Engineering Discipline for AI Coding Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Standard: Agent Skills](https://img.shields.io/badge/Standard-Agent%20Skills-6e3ef7.svg)](https://agentskills.io)
@@ -7,8 +7,8 @@
 [![Platform: Codex](https://img.shields.io/badge/OpenAI%20Codex-Compatible-74aa9c.svg)](https://openai.com)
 
 
-> 🛡️ **AI写代码总跳步骤？** — 防AI偷懒、防AI作弊、防AI跳步。每一步都锁死，缺证据就重来，让AI交出生产级代码。个人开发者也能拥有团队级质量。
-**AI keeps skipping steps? Super-Spec enforces every step with evidence. No more "tests passed" without proof. Anti-corner-cutting, evidence-based verification, structural locks. Production-grade quality for solo developers using Claude Code, Cursor, Codex, Copilot, Windsurf.**
+> 🛡️ **先写规范，再写代码。AI 也不例外。** — 防AI偷懒、防AI作弊、防AI跳步。每一步都锁死，缺证据就重来。个人开发者也能拥有团队级质量。
+**Stop vibe coding. Start spec driving.** Super-Spec is the engineering discipline layer for AI coding agents — specification-first, verification-always. Anti-corner-cutting, evidence-based verification, structural locks. Production-grade quality gates for AI-generated code. Built for solo developers.
 
 ```
   REQUIREMENTS → G0:ANCHOR → G1:DECIDE → G2:CONSTITUTION → G3:5-DOCS → G4:EXECUTE → G5:VERIFY → G6:WRAP → DELIVERY
@@ -38,13 +38,13 @@
 - [License](#license)
 
 - [Key Features — What Makes This Unique](#key-features--what-makes-this-unique--核心功能--别人没有的)
-## The Problem
+## The Problem: AI Keeps Skipping Steps
 
-AI coding agents are technically brilliant but behaviorally undisciplined. They **skip steps**, **fill in defaults without asking**, **claim "tests passed" with zero evidence**, and deliver results that "look fine" but break in production.
+AI coding agents are technically brilliant but behaviorally undisciplined. They **skip requirements**, **fill in defaults without asking**, **claim "tests passed" with zero evidence**, and deliver results that "look fine" but break in production.
 
-Prompt engineering doesn't fix this. Models learn to circumvent prompts — "enforce verification rigorously" becomes four words in the output: "Verification enforced rigorously."
+This is the **70% Problem** — AI gets you 70% there fast, but the last 30% is where production readiness lives. And prompt engineering doesn't fix it. Models learn to circumvent prompts — "enforce verification rigorously" becomes four words in the output: "Verification enforced rigorously."
 
-**Super-Spec is not a prompt. It's a structural enforcement system.**
+**Super-Spec is not a prompt. It's a structural enforcement system.** It's the engineering discipline that AI agents are missing — specification-first, verification-always, evidence-based.
 
 ## Key Features — What Makes This Unique / 核心功能 — 别人没有的
 
@@ -77,6 +77,17 @@ Super-Spec 是唯一一个系统性地**分类模型如何偷懒**、并为每�
 | Human review as quality gate | **Five-document interlocking** substitutes team review for solo developers |
 
 Super-Spec is the only skill in the ecosystem that **systematically catalogs how models cut corners** and creates **operational definitions** to prevent each tactic.
+
+### Why Not Just Prompt Engineering?
+
+| Approach | What Happens |
+|----------|-------------|
+| "Write a good prompt" | AI writes "Good prompt followed" — then skips steps anyway |
+| "Add verification rules" | AI writes "Verification rules applied" — no evidence |
+| "Use a longer system prompt" | Models ignore long prompts; context is diluted |
+| **Super-Spec (structural)** | Grep-able checklists, Scenario IDs, cross-document locks — cannot be bypassed |
+
+Prompts are requests. Super-Spec is architecture. **You can't talk an AI out of cutting corners — you have to build a structure it can't circumvent.**
 
 ## Quick Start
 
@@ -177,19 +188,34 @@ super-spec/
 
 ## Who This Is For
 
-- **Solo developers** using AI coding agents who need team-level quality assurance without a team
-- **AI engineers** who want their agents to follow disciplined engineering practices
+- **Solo developers** using AI coding agents — get team-level quality assurance without a team, reviewer, or QA
+- **Vibe coders who've been burned** — you shipped fast, then spent weeks fixing AI-generated bugs. Never again.
+- **AI engineers** who want their agents to follow disciplined engineering practices with evidence
 - **Project leads** who need verifiable, evidence-backed deliverables from AI agents
-- **Anyone who's been burned** by an AI agent confidently delivering broken code
+- **Anyone tired of AI cutting corners** — "tests passed" without proof, requirements skipped, defaults filled in silently
 
 ## Compared to Similar Tools
+
+### Super-Spec vs Vibe Coding
+
+| | Vibe Coding 🎤 | Super-Spec 🛡️ |
+|---|------------|------------|
+| **Philosophy** | "Just describe it, AI figures it out" | "Spec first, verify always, evidence required" |
+| **Speed (first hour)** | 🚀 Fast | 🐢 Slower start |
+| **Speed (day 3+)** | 🐌 Slows down (refactoring, bug fixing) | 🚀 Steady, predictable |
+| **Risk of production incidents** | High (15-20%事故率) | Low (evidence-anchored) |
+| **Understanding debt** | Accumulates silently | Zero — Constitution anchors every round |
+| **Best for** | Prototypes, MVPs, exploration | Production, complex systems, long-term maintenance |
+
+### Super-Spec vs Other Spec Tools
 
 | Tool | Approach | Strengths | When Super-Spec Wins |
 |------|----------|-----------|---------------------|
 | [spec-driven-development](https://github.com/addyosmani/agent-skills) | 4-phase spec→plan→tasks→implement | Concise, practical, widely adopted | When you need enforcement, not just guidance |
-| [sdlc-ai-workflow](https://github.com/saitarrun/sdlc-ai-workflow) | 26 agents across 6 SDLC phases | Comprehensive, industrial-grade | When you want lightweight, not heavy orchestration |
+| [github/spec-kit](https://github.com/github/spec-kit) | CLI-driven SDD with constitution | 105K stars, GitHub official | When you need structural anti-corner-cutting, not just phase gates |
+| [guard-skills](https://github.com/amElnagdy/guard-skills) | Post-hoc quality gates | Second-pass review, catches AI code smells | When you want discipline built-in, not patched-on after |
 | Anthropic's [skill-creator](https://github.com/anthropics/skills) | Meta-skill for creating skills | Eval-driven, iterative | When you need to prevent corner-cutting in execution |
-| **Super-Spec** | **7-gate enforcement + anti-corner-cutting** | **Structural prevention of model shortcutting** | **When "looks fine" is not good enough** |
+| **Super-Spec** | **Specification-first + verification-always** | **Structural prevention of model shortcutting** | **When "looks fine" is not good enough** |
 
 ## Why "Super-Spec"?
 
