@@ -162,6 +162,19 @@ In testing across multiple projects, Super-Spec has been shown to:
 - **Enforce** progressive iteration (≥3 rounds) instead of one-and-done
 - **Surface** unconfirmed decisions that would otherwise be silently defaulted
 
+## Roadmap
+
+Super-Spec solves the **engineering discipline** problem — preventing AI agents from cutting corners. But there's a second half to the equation:
+
+| Problem | Skill | Status |
+|---------|-------|--------|
+| AI skips steps, claims success without evidence | **super-spec** — Engineering discipline | ✅ Released |
+| AI expresses vaguely, lacks structure, leaves ambiguity | **super-prompt** — Prompt discipline | 🔜 Planned |
+
+Super-Spec ensures the agent **does the right things**. Super-Prompt will ensure the agent **says them the right way** — precise, structured, ambiguity-free. Two sides of the same coin: one enforces how agents execute, the other enforces how agents express.
+
+*Interested in super-prompt? Star this repo and watch for updates.*
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
