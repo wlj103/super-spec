@@ -7,8 +7,8 @@
 [![Platform: Codex](https://img.shields.io/badge/OpenAI%20Codex-Compatible-74aa9c.svg)](https://openai.com)
 
 
-> 🛡️ **个人开发者神器** — 防AI偷懒、防AI作弊、防AI跳步。七道闸门 + 五文档互锁，让 AI 写代码时必须走完每一步，拿出证据，否则不准交差。
-**A spec-driven development discipline for AI coding agents. Seven verification gates + five-document interlocking system prevent corner-cutting. Production-grade quality gates for Claude Code, Cursor, Codex, Copilot, Windsurf. Built for solo developers who need team-level engineering rigor.**
+> 🛡️ **AI写代码总跳步骤？** — 防AI偷懒、防AI作弊、防AI跳步。每一步都锁死，缺证据就重来，让AI交出生产级代码。个人开发者也能拥有团队级质量。
+**AI keeps skipping steps? Super-Spec enforces every step with evidence. No more "tests passed" without proof. Anti-corner-cutting, evidence-based verification, structural locks. Production-grade quality for solo developers using Claude Code, Cursor, Codex, Copilot, Windsurf.**
 
 ```
   REQUIREMENTS → G0:ANCHOR → G1:DECIDE → G2:CONSTITUTION → G3:5-DOCS → G4:EXECUTE → G5:VERIFY → G6:WRAP → DELIVERY
@@ -52,18 +52,18 @@ Super-Spec is the only agent skill that **systematically catalogs how AI models 
 
 Super-Spec 是唯一一个系统性地**分类模型如何偷懒**、并为每种偷懒手段创建**操作定义**来阻止的 Agent Skill。
 
-| Feature 功能 | Why It Matters 为什么重要 | High-Search Keywords 高频搜索词 |
+| Feature 功能 | The Problem It Solves 解决什么问题 | What People Actually Search 用户会搜什么 |
 |---------|---------------|------------------------|
-| **Anti-Corner-Cutting Clause 反偷懒条款** | 4 categories of model shortcutting, each with operational definitions | stop AI skipping steps, prevent AI cutting corners, 防AI偷懒, 防AI作弊 |
-| **Five-Document Interlocking 五文档互锁** | Constitution + spec + tasks + checklist + decisions cross-validate; spec says A, tasks cannot say B | cross-document verification, interlocking specs, 文档互锁, 规格验证 |
-| **Constitution-Driven 宪法驱动** | Re-read Constitution every round; zero reliance on "the model remembers" | AI agent constitution, process discipline, AI流程纪律 |
-| **Evidence-Based Verification 证据验证** | Script name + pass count + live e2e results required. "Tests passed" is not evidence | evidence-based AI, non-repudiable proof, AI验证证据 |
-| **Solo Dev Optimized 个人开发者神器** | Five-document interlocking substitutes team review; no reviewer, QA, or PM needed | solo developer AI tools, 个人开发者神器, 单人团队级质量 |
-| **Structural Locks 结构锁** | Grep-able checklists, Scenario IDs, 18-item checklist — prompts can be bypassed, structure cannot | structural verification, grep-able gates, 结构锁, 防绕过 |
-| **Spot-Check Re-Verification 抽查复验** | Final round: pick 3 ✅ items, verify via different method. Prevents self-deception | AI self-verification, spot-check, 防AI自欺, 抽查验证 |
-| **Pre-Flight + Rollback 预检+回滚** | Destructive operations get pre-flight check + rollback drill before execution | safe AI deployment, rollback drill, 安全部署, 回滚演练 |
-| **Progressive ≥3 Rounds 渐进式≥3轮** | Gate Four enforces minimum 3 rounds; all P0 green before proceeding | progressive iteration, multi-round verification, 渐进式执行, 多轮验证 |
-| **Seven-Gate Pipeline 七道闸门** | G0:Anchor → G1:Decide → G2:Constitution → G3:5-Docs → G4:Execute → G5:Verify → G6:Wrap | verification gates, AI engineering discipline, 七道闸门, 工程纪律 |
+| **Anti-Corner-Cutting 反偷懒条款** | AI keeps skipping steps, fills in defaults, claims done without evidence | "AI keeps skipping steps" / "AI总跳步骤怎么办" / "AI偷懒不按流程" / "stop AI cutting corners" |
+| **Cross-Document Validation 文档交叉验证** | AI code drifts from requirements; spec says one thing, code does another | "AI code doesn't match requirements" / "AI代码和需求不一致" / "AI不按需求开发" / "AI ignores spec" |
+| **Constitution-Driven 规则驱动** | AI forgets context between rounds; each session starts from scratch | "AI forgets context" / "AI忘记上下文" / "AI不记得之前的约定" / "make AI follow rules consistently" |
+| **Evidence-Based Verification 证据验证** | AI says "tests passed" but never actually ran them; zero proof of work | "AI says tests passed but didn't" / "AI谎称测试通过" / "AI测试没跑就说通过" / "verify AI actually ran tests" |
+| **Solo Developer Workflow 单人团队级质量** | No reviewer, no QA, no PM — just you and AI. How to get production-grade quality alone? | "solo developer AI coding" / "个人开发者用AI写代码" / "没有代码审查的AI开发" / "一个人用AI做项目" |
+| **Structural Locks 结构锁** | AI bypasses prompts; writes "enforcement applied" but skips the actual work | "AI bypasses prompts" / "AI绕过提示词" / "提示词管不住AI" / "AI ignores instructions" |
+| **Spot-Check Re-Verification 抽查复验** | AI output looks fine but breaks in production; surface-level validation misses real bugs | "AI looks fine but breaks" / "AI表面没问题实际有bug" / "AI自欺欺人" / "verify AI output is real" |
+| **Pre-Flight + Rollback 预检+回滚** | AI deployment broke everything, no way to recover; destructive operations with no safety net | "AI deployment broke everything" / "AI部署搞崩了" / "AI操作失误无法恢复" / "safe AI deployment rollback" |
+| **Progressive ≥3 Rounds 渐进式迭代** | AI stops after first attempt, declares "done" when quality is still poor | "AI stops after first attempt" / "AI只做一轮就说完成" / "AI不迭代优化" / "AI doesn't iterate" |
+| **Seven-Gate Pipeline 七步质量流水线** | No structured workflow for AI coding; ad-hoc prompts lead to ad-hoc quality | "production-grade AI code" / "AI代码如何达到生产级" / "AI工程化开发流程" / "AI coding workflow quality" |
 
 ## What Makes This Different
 ## What Makes This Different
