@@ -16,6 +16,25 @@
                list         + user asked  + constraints  +checklist     green        check
 ```
 
+## Table of Contents
+
+- [The Problem](#the-problem)
+- [What Makes This Different](#what-makes-this-different)
+- [Quick Start](#quick-start)
+- [How It Works](#how-it-works)
+  - [The Seven Gates](#the-seven-gates)
+  - [The Five-Document Interlocking System](#the-five-document-interlocking-system)
+  - [The Anti-Corner-Cutting Clause](#the-anti-corner-cutting-clause)
+- [Architecture](#architecture)
+- [Design Principles](#design-principles)
+- [Who This Is For](#who-this-is-for)
+- [Compared to Similar Tools](#compared-to-similar-tools)
+- [Why "Super-Spec"?](#why-super-spec)
+- [Real-World Impact](#real-world-impact)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## The Problem
 
 AI coding agents are technically brilliant but behaviorally undisciplined. They **skip steps**, **fill in defaults without asking**, **claim "tests passed" with zero evidence**, and deliver results that "look fine" but break in production.
@@ -42,10 +61,10 @@ Super-Spec is the only skill in the ecosystem that **systematically catalogs how
 
 ```bash
 # Via skills CLI (works with 70+ agents: Claude Code, Cursor, Codex, Copilot, Cline, etc.)
-npx skills add your-username/super-spec
+npx skills add wlj103/super-spec
 
 # Or clone directly
-git clone https://github.com/your-username/super-spec.git
+git clone https://github.com/wlj103/super-spec.git
 ```
 
 ### Trigger
@@ -155,10 +174,18 @@ The name comes from the core insight: traditional specs are **documents that age
 
 ## Real-World Impact
 
+Super-Spec was battle-tested in the **V14 Brain Memory Architecture Upgrade** — a production AI infrastructure project with 46 files, 78KB of source code, and 533 test cases:
+
+- **5 documents, 996 lines** generated through the seven-gate pipeline (Constitution + spec + tasks + checklist + decisions)
+- **Gate Three 16-item self-check**: all green on first pass, zero false "Yes" answers
+- **Cross-document consistency**: Scenario IDs matched across all 5 documents; drift caught before execution
+- **Zero unconfirmed defaults**: Gate One surfaced 8 decision points the agent would have silently defaulted
+- **Evidence trail**: Every task completion backed by script name + pass count, not claims
+
 In testing across multiple projects, Super-Spec has been shown to:
 - **Eliminate** the "tests passed" with zero evidence pattern
-- **Prevent** scope drift through Constitution anchoring
-- **Catch** cross-document inconsistencies before execution
+- **Prevent** scope drift through Constitution anchoring every round
+- **Catch** cross-document inconsistencies before execution begins
 - **Enforce** progressive iteration (≥3 rounds) instead of one-and-done
 - **Surface** unconfirmed decisions that would otherwise be silently defaulted
 
