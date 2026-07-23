@@ -10,7 +10,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/wlj103/super-spec?style=social)](https://github.com/wlj103/super-spec)
 
 
-> 🛡️ **Stop vibe coding. Start spec driving.** Super-Spec is the engineering discipline layer for AI coding agents — specification-first, verification-always. Anti-corner-cutting, evidence-based verification, structural locks. Production-grade quality gates for AI-generated code. Built for solo developers.
+> 🛡️ **Stop vibe coding. Start spec driving.** Super-Spec is the engineering discipline layer for AI coding agents — specification-first prompt engineering, verification-always. Seven-gate pipeline with anti-laziness interception, five-document cross-validation, and evidence-based verification. Production-grade quality gates for AI-generated code. Built for solo developers and AI agent workflows.
 
 ```
   REQUIREMENTS → G0:ANCHOR → G1:DECIDE → G2:CONSTITUTION → G3:5-DOCS → G4:EXECUTE → G5:VERIFY → G6:WRAP → DELIVERY
